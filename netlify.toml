@@ -1,0 +1,12 @@
+[[redirects]]
+  # Proxy all API requests to the deployed backend
+  from = "/api/*"
+  to = "https://YOUR_BACKEND_URL.onrender.com/api/:splat" # ⚠️ REPLACE THIS URL AFTER DEPLOYING BACKEND
+  status = 200
+  force = true
+
+[[redirects]]
+  # Redirect all other routes to index.html for React Router (Single Page App)
+  from = "/*"
+  to = "/index.html"
+  status = 200
