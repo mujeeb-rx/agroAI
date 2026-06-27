@@ -986,7 +986,7 @@ app.post("/api/market-data", async (req, res) => {
   if (!crop) return res.status(400).json({ error: "crop is required." });
 
   // Setup cache directory - use /tmp on Netlify/AWS Lambda to avoid EROFS errors
-  const isServerless = process.env.NETLIFY || process.env.AWS_LAMBDA_FUNCTION_NAME;
+  const isServerless = process.env.NETLIFY || process.env.AWS_LAMBDA_FUNCTION_NAME || process.env.LAMBDA_TASK_ROOT || process.cwd() === "/var/task";
   const cacheDir = isServerless 
     ? path.join("/tmp", ".market_cache") 
     : path.join(process.cwd(), ".market_cache");
