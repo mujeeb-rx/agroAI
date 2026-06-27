@@ -2,10 +2,131 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AgroAI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0a1a0f" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <title>AgroAI – Smart Farming Platform</title>
+    <meta name="description" content="AI-powered smart farming platform: crop disease detection, weather advisory, yield prediction, market prices, and crop recommendations for Indian farmers in 8 languages." />
+    <meta name="keywords" content="AgroAI, smart farming, crop disease detection, Gemini AI, agriculture, yield prediction, Indian farmers" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AgroAI – Smart Farming Platform" />
+    <meta property="og:description" content="Instant AI-powered crop disease diagnosis, weather advice, yield prediction, and market prices for Indian farmers." />
+    <meta property="og:site_name" content="AgroAI" />
+
+    <!-- Leaflet Map CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <style>
+      /* Prevent FOUC */
+      html { background: #0a1a0f; }
+      #root { min-height: 100vh; }
+
+      /* ── Hide Google Translate UI chrome completely ───────────────────── */
+      .goog-te-banner-frame,
+      .goog-te-balloon-frame,
+      #goog-gt-tt,
+      .goog-te-menu-value span,
+      .goog-logo-link,
+      .goog-te-gadget-icon,
+      .goog-te-menu-frame,
+      .skiptranslate > font,
+      .VIpgJd-ZVi9od-aZ2wEe-wOHMyf { display: none !important; }
+
+      /* Prevent Google Translate from pushing the body down */
+      body { top: 0 !important; position: static !important; }
+
+      /* Hide the translate bar/banner */
+      .goog-te-banner-frame.skiptranslate { display: none !important; }
+      iframe.goog-te-banner-frame { display: none !important; }
+
+      /* Keep translated text font consistent */
+      font[style] { font-size: inherit !important; }
+      font { vertical-align: inherit !important; }
+    </style>
+
+    <!-- Google Translate Widget (hidden — we drive it programmatically) -->
+    <div id="google_translate_element" style="display:none;visibility:hidden;position:absolute;"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          includedLanguages: 'en,hi,te,ta,kn,mr,bn,ml',
+          autoDisplay: false,
+          gaTrack: false,
+        }, 'google_translate_element');
+      }
+
+      // Programmatic translation trigger — called from React
+      window.agroaiSetLanguage = function(langCode) {
+        if (!langCode || langCode === 'en') {
+          // Reset to English by clearing the googtrans cookie and reloading
+          var domain = location.hostname;
+          var cookieParts = [
+            'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/',
+            'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=' + domain,
+            'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.' + domain,
+          ];
+          cookieParts.forEach(function(c){ document.cookie = c; });
+          if (window._currentGTLang && window._currentGTLang !== 'en') {
+            window._currentGTLang = 'en';
+            location.reload();
+          }
+          return;
+        }
+
+        // Set the googtrans cookie (Google Translate reads this)
+        var pair = '/en/' + langCode;
+        var domain = location.hostname;
+        document.cookie = 'googtrans=' + pair + '; path=/';
+        document.cookie = 'googtrans=' + pair + '; path=/; domain=' + domain;
+        document.cookie = 'googtrans=' + pair + '; path=/; domain=.' + domain;
+
+        // Try to trigger via the hidden select widget
+        function tryTrigger(retries) {
+          var combo = document.querySelector('.goog-te-combo');
+          if (combo) {
+            combo.value = langCode;
+            combo.dispatchEvent(new Event('change'));
+            window._currentGTLang = langCode;
+          } else if (retries > 0) {
+            setTimeout(function(){ tryTrigger(retries - 1); }, 200);
+          } else {
+            // Fallback: reload so Google Translate picks up the cookie
+            window._currentGTLang = langCode;
+            location.reload();
+          }
+        }
+        tryTrigger(15);
+      };
+
+      // Track current language
+      window._currentGTLang = (function(){
+        var m = document.cookie.match(/googtrans=\/en\/([a-z]+)/);
+        return m ? m[1] : 'en';
+      })();
+
+      // On load, re-apply saved language cookie if present
+      window.addEventListener('load', function(){
+        var m = document.cookie.match(/googtrans=\/en\/([a-z]+)/);
+        if (m && m[1] && m[1] !== 'en') {
+          var combo = document.querySelector('.goog-te-combo');
+          if (combo) {
+            combo.value = m[1];
+            combo.dispatchEvent(new Event('change'));
+          }
+        }
+      });
+    </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </head>
-  <body>
+  <body style="margin:0; padding:0;">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

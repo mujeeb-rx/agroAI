@@ -1,0 +1,134 @@
+{
+  "status": "Cached",
+  "crop": "Onion",
+  "currentPrice": 2200,
+  "yesterdayPrice": 2226,
+  "dailyChangePct": -1.17,
+  "weeklyChangePct": -2.31,
+  "monthlyTrend": "down",
+  "lastUpdated": "Today, 6:02 pm",
+  "market": "Madanapalle APMC",
+  "district": "kadapa",
+  "state": "Andhra Pradesh",
+  "source": "Agmarknet Cache",
+  "history7d": [
+    {
+      "label": "Mon",
+      "value": 2252
+    },
+    {
+      "label": "Tue",
+      "value": 2223
+    },
+    {
+      "label": "Wed",
+      "value": 2235
+    },
+    {
+      "label": "Thu",
+      "value": 2227
+    },
+    {
+      "label": "Fri",
+      "value": 2212
+    },
+    {
+      "label": "Sat",
+      "value": 2226
+    },
+    {
+      "label": "Today",
+      "value": 2200
+    }
+  ],
+  "history30d": [
+    {
+      "label": "Wk 1",
+      "value": 2060
+    },
+    {
+      "label": "Wk 2",
+      "value": 2112
+    },
+    {
+      "label": "Wk 3",
+      "value": 2149
+    },
+    {
+      "label": "Wk 4",
+      "value": 2200
+    }
+  ],
+  "history90d": [
+    {
+      "label": "Month 1",
+      "value": 2315
+    },
+    {
+      "label": "Month 2",
+      "value": 2169
+    },
+    {
+      "label": "Month 3",
+      "value": 2200
+    }
+  ],
+  "history1y": [
+    {
+      "label": "Q1",
+      "value": 2039
+    },
+    {
+      "label": "Q2",
+      "value": 1658
+    },
+    {
+      "label": "Q3",
+      "value": 2045
+    },
+    {
+      "label": "Q4",
+      "value": 2200
+    }
+  ],
+  "aiPrediction": "🔴 Likely to Decrease",
+  "aiConfidence": 91,
+  "predictionExplanation": "Prices are experiencing temporary declines as harvest arrivals peak, causing a supply surplus in regional centers.",
+  "sellingAdvice": "🟢 Sell Today",
+  "sellingAdviceExplanation": "With prices declining, selling immediately at current rates is recommended to avoid further drop as more arrivals hit the mandi.",
+  "nearbyMarkets": [
+    {
+      "market": "Madanapalle APMC",
+      "district": "kadapa",
+      "distance": "30 km",
+      "price": 2240,
+      "trend": "up",
+      "status": "Best",
+      "lastUpdated": "Today, 1:45 PM"
+    },
+    {
+      "market": "Kurnool APMC",
+      "district": "Adjacent Dist",
+      "distance": "65 km",
+      "price": 2180,
+      "trend": "stable",
+      "status": "Good",
+      "lastUpdated": "Today, 12:30 PM"
+    },
+    {
+      "market": "Guntur APMC",
+      "district": "Hub Mandi",
+      "distance": "110 km",
+      "price": 2150,
+      "trend": "down",
+      "status": "Fair",
+      "lastUpdated": "Today, 11:15 AM"
+    }
+  ],
+  "dailySummary": "Market analysis for Onion in Andhra Pradesh indicates a down trend. Active trading reported at Madanapalle APMC with a maximum price of ₹2240/quintal. Farmers in kadapa should monitor local rainfall and arrivals before concluding transactions.",
+  "alerts": [
+    "📉 Onion price changed by -1.17% today.",
+    "🏆 Madanapalle APMC is currently the best market in Andhra Pradesh.",
+    "🌧️ Weather changes might affect mandi logistics over the next 48 hours."
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "status": "Cached",
+  "crop": "Wheat",
+  "currentPrice": 2400,
+  "msp": 2275,
+  "yesterdayPrice": 2381,
+  "dailyChangePct": 0.8,
+  "weeklyChangePct": -0.04,
+  "monthlyTrend": "stable",
+  "lastUpdated": "Today, 5:59 pm",
+  "market": "Punjab Khanna",
+  "district": "Local District",
+  "state": "Telangana",
+  "source": "Agmarknet Cache",
+  "history7d": [
+    {
+      "label": "Mon",
+      "value": 2401
+    },
+    {
+      "label": "Tue",
+      "value": 2437
+    },
+    {
+      "label": "Wed",
+      "value": 2404
+    },
+    {
+      "label": "Thu",
+      "value": 2430
+    },
+    {
+      "label": "Fri",
+      "value": 2397
+    },
+    {
+      "label": "Sat",
+      "value": 2381
+    },
+    {
+      "label": "Today",
+      "value": 2400
+    }
+  ],
+  "history30d": [
+    {
+      "label": "Wk 1",
+      "value": 2196
+    },
+    {
+      "label": "Wk 2",
+      "value": 2305
+    },
+    {
+      "label": "Wk 3",
+      "value": 2326
+    },
+    {
+      "label": "Wk 4",
+      "value": 2400
+    }
+  ],
+  "history90d": [
+    {
+      "label": "Month 1",
+      "value": 2460
+    },
+    {
+      "label": "Month 2",
+      "value": 2384
+    },
+    {
+      "label": "Month 3",
+      "value": 2400
+    }
+  ],
+  "history1y": [
+    {
+      "label": "Q1",
+      "value": 2028
+    },
+    {
+      "label": "Q2",
+      "value": 2291
+    },
+    {
+      "label": "Q3",
+      "value": 2222
+    },
+    {
+      "label": "Q4",
+      "value": 2400
+    }
+  ],
+  "aiPrediction": "🟡 Stable",
+  "aiConfidence": 91,
+  "predictionExplanation": "Prices are holding stable with balanced demand and steady arrivals in the local markets.",
+  "sellingAdvice": "🔴 Wait for Better Price",
+  "sellingAdviceExplanation": "Prices are stable; consider waiting for seasonal festival demand to pick up in 10-14 days for a better price.",
+  "nearbyMarkets": [
+    {
+      "market": "Punjab Khanna",
+      "district": "Hyderabad",
+      "distance": "45 km",
+      "price": 2440,
+      "trend": "up",
+      "status": "Best",
+      "lastUpdated": "Today, 1:45 PM"
+    },
+    {
+      "market": "Haryana Narwana",
+      "district": "Warangal",
+      "distance": "90 km",
+      "price": 2380,
+      "trend": "stable",
+      "status": "Good",
+      "lastUpdated": "Today, 12:30 PM"
+    },
+    {
+      "market": "UP Kanpur",
+      "district": "Khammam",
+      "distance": "135 km",
+      "price": 2350,
+      "trend": "down",
+      "status": "Fair",
+      "lastUpdated": "Today, 11:15 AM"
+    }
+  ],
+  "dailySummary": "Market analysis for Wheat indicates a stable trend. Active trading reported at Punjab Khanna with a maximum price of ₹2440/quintal. Farmers should monitor local rainfall and arrivals before concluding transactions.",
+  "alerts": [
+    "📈 Wheat price changed by 0.8% today.",
+    "🏆 Punjab Khanna is currently the best market in this region.",
+    "🌧️ Weather changes might affect mandi logistics over the next 48 hours."
+  ]
+}

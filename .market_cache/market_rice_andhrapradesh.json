@@ -1,0 +1,135 @@
+{
+  "status": "Cached",
+  "crop": "Rice",
+  "currentPrice": 2200,
+  "msp": 2183,
+  "yesterdayPrice": 2180,
+  "dailyChangePct": 0.92,
+  "weeklyChangePct": 1.9,
+  "monthlyTrend": "stable",
+  "lastUpdated": "Today, 6:02 pm",
+  "market": "Madanapalle APMC",
+  "district": "kadapa",
+  "state": "Andhra Pradesh",
+  "source": "Agmarknet Cache",
+  "history7d": [
+    {
+      "label": "Mon",
+      "value": 2159
+    },
+    {
+      "label": "Tue",
+      "value": 2175
+    },
+    {
+      "label": "Wed",
+      "value": 2168
+    },
+    {
+      "label": "Thu",
+      "value": 2168
+    },
+    {
+      "label": "Fri",
+      "value": 2177
+    },
+    {
+      "label": "Sat",
+      "value": 2180
+    },
+    {
+      "label": "Today",
+      "value": 2200
+    }
+  ],
+  "history30d": [
+    {
+      "label": "Wk 1",
+      "value": 2231
+    },
+    {
+      "label": "Wk 2",
+      "value": 2053
+    },
+    {
+      "label": "Wk 3",
+      "value": 2226
+    },
+    {
+      "label": "Wk 4",
+      "value": 2200
+    }
+  ],
+  "history90d": [
+    {
+      "label": "Month 1",
+      "value": 2179
+    },
+    {
+      "label": "Month 2",
+      "value": 2241
+    },
+    {
+      "label": "Month 3",
+      "value": 2200
+    }
+  ],
+  "history1y": [
+    {
+      "label": "Q1",
+      "value": 2281
+    },
+    {
+      "label": "Q2",
+      "value": 2255
+    },
+    {
+      "label": "Q3",
+      "value": 1949
+    },
+    {
+      "label": "Q4",
+      "value": 2200
+    }
+  ],
+  "aiPrediction": "🟡 Stable",
+  "aiConfidence": 91,
+  "predictionExplanation": "Prices are holding stable with balanced demand and steady arrivals in the local markets.",
+  "sellingAdvice": "🔴 Wait for Better Price",
+  "sellingAdviceExplanation": "Prices are stable; consider waiting for seasonal festival demand to pick up in 10-14 days for a better price.",
+  "nearbyMarkets": [
+    {
+      "market": "Madanapalle APMC",
+      "district": "kadapa",
+      "distance": "30 km",
+      "price": 2240,
+      "trend": "up",
+      "status": "Best",
+      "lastUpdated": "Today, 1:45 PM"
+    },
+    {
+      "market": "Kurnool APMC",
+      "district": "Adjacent Dist",
+      "distance": "65 km",
+      "price": 2180,
+      "trend": "stable",
+      "status": "Good",
+      "lastUpdated": "Today, 12:30 PM"
+    },
+    {
+      "market": "Guntur APMC",
+      "district": "Hub Mandi",
+      "distance": "110 km",
+      "price": 2150,
+      "trend": "down",
+      "status": "Fair",
+      "lastUpdated": "Today, 11:15 AM"
+    }
+  ],
+  "dailySummary": "Market analysis for Rice in Andhra Pradesh indicates a stable trend. Active trading reported at Madanapalle APMC with a maximum price of ₹2240/quintal. Farmers in kadapa should monitor local rainfall and arrivals before concluding transactions.",
+  "alerts": [
+    "📈 Rice price changed by 0.92% today.",
+    "🏆 Madanapalle APMC is currently the best market in Andhra Pradesh.",
+    "🌧️ Weather changes might affect mandi logistics over the next 48 hours."
+  ]
+}

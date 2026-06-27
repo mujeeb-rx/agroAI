@@ -1,0 +1,135 @@
+{
+  "status": "Cached",
+  "crop": "Groundnut",
+  "currentPrice": 5800,
+  "msp": 6375,
+  "yesterdayPrice": 5778,
+  "dailyChangePct": 0.38,
+  "weeklyChangePct": 0.24,
+  "monthlyTrend": "stable",
+  "lastUpdated": "Today, 6:03 pm",
+  "market": "Madanapalle APMC",
+  "district": "kadapa",
+  "state": "Andhra Pradesh",
+  "source": "Agmarknet Cache",
+  "history7d": [
+    {
+      "label": "Mon",
+      "value": 5786
+    },
+    {
+      "label": "Tue",
+      "value": 5826
+    },
+    {
+      "label": "Wed",
+      "value": 5804
+    },
+    {
+      "label": "Thu",
+      "value": 5767
+    },
+    {
+      "label": "Fri",
+      "value": 5793
+    },
+    {
+      "label": "Sat",
+      "value": 5778
+    },
+    {
+      "label": "Today",
+      "value": 5800
+    }
+  ],
+  "history30d": [
+    {
+      "label": "Wk 1",
+      "value": 5749
+    },
+    {
+      "label": "Wk 2",
+      "value": 5878
+    },
+    {
+      "label": "Wk 3",
+      "value": 5779
+    },
+    {
+      "label": "Wk 4",
+      "value": 5800
+    }
+  ],
+  "history90d": [
+    {
+      "label": "Month 1",
+      "value": 5761
+    },
+    {
+      "label": "Month 2",
+      "value": 5738
+    },
+    {
+      "label": "Month 3",
+      "value": 5800
+    }
+  ],
+  "history1y": [
+    {
+      "label": "Q1",
+      "value": 6099
+    },
+    {
+      "label": "Q2",
+      "value": 5413
+    },
+    {
+      "label": "Q3",
+      "value": 5871
+    },
+    {
+      "label": "Q4",
+      "value": 5800
+    }
+  ],
+  "aiPrediction": "🟡 Stable",
+  "aiConfidence": 91,
+  "predictionExplanation": "Prices are holding stable with balanced demand and steady arrivals in the local markets.",
+  "sellingAdvice": "🔴 Wait for Better Price",
+  "sellingAdviceExplanation": "Prices are stable; consider waiting for seasonal festival demand to pick up in 10-14 days for a better price.",
+  "nearbyMarkets": [
+    {
+      "market": "Madanapalle APMC",
+      "district": "kadapa",
+      "distance": "30 km",
+      "price": 5840,
+      "trend": "up",
+      "status": "Best",
+      "lastUpdated": "Today, 1:45 PM"
+    },
+    {
+      "market": "Kurnool APMC",
+      "district": "Adjacent Dist",
+      "distance": "65 km",
+      "price": 5780,
+      "trend": "stable",
+      "status": "Good",
+      "lastUpdated": "Today, 12:30 PM"
+    },
+    {
+      "market": "Guntur APMC",
+      "district": "Hub Mandi",
+      "distance": "110 km",
+      "price": 5750,
+      "trend": "down",
+      "status": "Fair",
+      "lastUpdated": "Today, 11:15 AM"
+    }
+  ],
+  "dailySummary": "Market analysis for Groundnut in Andhra Pradesh indicates a stable trend. Active trading reported at Madanapalle APMC with a maximum price of ₹5840/quintal. Farmers in kadapa should monitor local rainfall and arrivals before concluding transactions.",
+  "alerts": [
+    "📈 Groundnut price changed by 0.38% today.",
+    "🏆 Madanapalle APMC is currently the best market in Andhra Pradesh.",
+    "🌧️ Weather changes might affect mandi logistics over the next 48 hours."
+  ]
+}

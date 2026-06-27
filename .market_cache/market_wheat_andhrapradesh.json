@@ -1,0 +1,135 @@
+{
+  "status": "Cached",
+  "crop": "Wheat",
+  "currentPrice": 2400,
+  "msp": 2275,
+  "yesterdayPrice": 2448,
+  "dailyChangePct": -1.96,
+  "weeklyChangePct": -2.68,
+  "monthlyTrend": "down",
+  "lastUpdated": "Today, 6:02 pm",
+  "market": "Madanapalle APMC",
+  "district": "kadapa",
+  "state": "Andhra Pradesh",
+  "source": "Agmarknet Cache",
+  "history7d": [
+    {
+      "label": "Mon",
+      "value": 2466
+    },
+    {
+      "label": "Tue",
+      "value": 2457
+    },
+    {
+      "label": "Wed",
+      "value": 2426
+    },
+    {
+      "label": "Thu",
+      "value": 2433
+    },
+    {
+      "label": "Fri",
+      "value": 2410
+    },
+    {
+      "label": "Sat",
+      "value": 2448
+    },
+    {
+      "label": "Today",
+      "value": 2400
+    }
+  ],
+  "history30d": [
+    {
+      "label": "Wk 1",
+      "value": 2208
+    },
+    {
+      "label": "Wk 2",
+      "value": 2395
+    },
+    {
+      "label": "Wk 3",
+      "value": 2403
+    },
+    {
+      "label": "Wk 4",
+      "value": 2400
+    }
+  ],
+  "history90d": [
+    {
+      "label": "Month 1",
+      "value": 2349
+    },
+    {
+      "label": "Month 2",
+      "value": 2383
+    },
+    {
+      "label": "Month 3",
+      "value": 2400
+    }
+  ],
+  "history1y": [
+    {
+      "label": "Q1",
+      "value": 1744
+    },
+    {
+      "label": "Q2",
+      "value": 2322
+    },
+    {
+      "label": "Q3",
+      "value": 2237
+    },
+    {
+      "label": "Q4",
+      "value": 2400
+    }
+  ],
+  "aiPrediction": "🔴 Likely to Decrease",
+  "aiConfidence": 91,
+  "predictionExplanation": "Prices are experiencing temporary declines as harvest arrivals peak, causing a supply surplus in regional centers.",
+  "sellingAdvice": "🟢 Sell Today",
+  "sellingAdviceExplanation": "With prices declining, selling immediately at current rates is recommended to avoid further drop as more arrivals hit the mandi.",
+  "nearbyMarkets": [
+    {
+      "market": "Madanapalle APMC",
+      "district": "kadapa",
+      "distance": "30 km",
+      "price": 2440,
+      "trend": "up",
+      "status": "Best",
+      "lastUpdated": "Today, 1:45 PM"
+    },
+    {
+      "market": "Kurnool APMC",
+      "district": "Adjacent Dist",
+      "distance": "65 km",
+      "price": 2380,
+      "trend": "stable",
+      "status": "Good",
+      "lastUpdated": "Today, 12:30 PM"
+    },
+    {
+      "market": "Guntur APMC",
+      "district": "Hub Mandi",
+      "distance": "110 km",
+      "price": 2350,
+      "trend": "down",
+      "status": "Fair",
+      "lastUpdated": "Today, 11:15 AM"
+    }
+  ],
+  "dailySummary": "Market analysis for Wheat in Andhra Pradesh indicates a down trend. Active trading reported at Madanapalle APMC with a maximum price of ₹2440/quintal. Farmers in kadapa should monitor local rainfall and arrivals before concluding transactions.",
+  "alerts": [
+    "📉 Wheat price changed by -1.96% today.",
+    "🏆 Madanapalle APMC is currently the best market in Andhra Pradesh.",
+    "🌧️ Weather changes might affect mandi logistics over the next 48 hours."
+  ]
+}
